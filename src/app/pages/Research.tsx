@@ -118,7 +118,7 @@ export default function Research() {
               fontSize: "0.75rem",
               letterSpacing: "0.15em",
               textTransform: "uppercase",
-              color: "var(--muted)",
+              color: "var(--accent)",
               margin: 0,
             }}
           >

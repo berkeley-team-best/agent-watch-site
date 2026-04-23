@@ -60,7 +60,7 @@ html {
     transform 0.15s ease,
     left 0.1s ease,
     top 0.1s ease;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 /* Noise texture overlay */
@@ -92,7 +92,7 @@ html {
   font-size: 0.8rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .masthead-logo strong {
@@ -107,7 +107,7 @@ html {
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .masthead-nav a {
@@ -131,7 +131,7 @@ html {
 .masthead-issue {
   font-family: "DM Mono", monospace;
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--accent);
   text-align: right;
 }
 
@@ -280,7 +280,7 @@ html {
   font-size: 0.65rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .meta-value {
@@ -332,7 +332,7 @@ html {
   font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 0.5rem;
   opacity: 0;
   animation: fadeUp 0.7s 0.5s forwards;
@@ -362,7 +362,7 @@ html {
 
 .scorecard-score small {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--accent);
   font-weight: 300;
 }
 
@@ -413,7 +413,7 @@ html {
 .dim-val {
   font-family: "DM Mono", monospace;
   font-size: 0.72rem;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .bar-track {
@@ -500,7 +500,7 @@ html {
   font-size: 0.68rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   white-space: nowrap;
 }
 
@@ -609,7 +609,7 @@ html {
 .case-body {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .case-dims {
@@ -626,7 +626,7 @@ html {
   padding: 0.2rem 0.6rem;
   border: 1px solid var(--rule);
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   transition: border 0.5s;
 }
 
@@ -663,7 +663,7 @@ html {
 .dim-cell-num {
   font-family: "DM Mono", monospace;
   font-size: 0.65rem;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1rem;
   letter-spacing: 0.1em;
 }
@@ -678,7 +678,7 @@ html {
 .dim-cell-desc {
   font-size: 0.82rem;
   line-height: 1.6;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 /* ── OPEN WEIGHT SECTION ── */
@@ -702,7 +702,7 @@ html {
 .open-body {
   font-size: 1rem;
   line-height: 1.75;
-  color: var(--muted);
+  color: var(--accent);
   max-width: 55ch;
 }
 
@@ -717,7 +717,7 @@ html {
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1.5rem;
 }
 
@@ -799,7 +799,7 @@ html {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .footer-right {
@@ -808,7 +808,7 @@ html {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: var(--muted);
+  color: var(--accent);
   text-transform: uppercase;
 }
 
@@ -922,7 +922,7 @@ html {
 .framework-hero-desc {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   max-width: 55ch;
 }
 
@@ -969,7 +969,7 @@ html {
 .methodology-desc {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .dimensions-deep {
@@ -997,7 +997,7 @@ html {
 .dimension-detail-num {
   font-family: "DM Mono", monospace;
   font-size: 1.5rem;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .dimension-detail-name {
@@ -1025,7 +1025,7 @@ html {
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -1037,7 +1037,7 @@ html {
 .dimension-detail-list li {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   padding-left: 1.2rem;
   position: relative;
   margin-bottom: 0.5rem;
@@ -1074,7 +1074,7 @@ html {
 .scoring-desc {
   font-size: 1rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 3rem;
 }
 
@@ -1137,7 +1137,7 @@ html {
 
 .scoring-tier-desc {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .framework-cta {
@@ -1190,7 +1190,7 @@ html {
 .case-studies-hero-desc {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   max-width: 65ch;
 }
 
@@ -1220,7 +1220,7 @@ html {
 .stat-label {
   font-size: 0.85rem;
   line-height: 1.5;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .case-studies-filter {
@@ -1244,7 +1244,7 @@ html {
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .filter-chips {
@@ -1261,7 +1261,7 @@ html {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   cursor: none;
   transition: all 0.2s;
 }
@@ -1311,7 +1311,7 @@ html {
   text-align: right;
   font-family: "DM Mono", monospace;
   font-size: 0.65rem;
-  color: var(--muted);
+  color: var(--accent);
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -1401,7 +1401,7 @@ html {
 .case-studies-cta-desc {
   font-size: 1rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 2rem;
 }
 
@@ -1430,7 +1430,7 @@ html {
 .contribute-hero-desc {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   max-width: 65ch;
 }
 
@@ -1469,7 +1469,7 @@ html {
 .contribution-desc {
   font-size: 0.85rem;
   line-height: 1.6;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -1484,7 +1484,7 @@ html {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .contribute-form-section {
@@ -1512,7 +1512,7 @@ html {
 .contribute-form-desc {
   font-size: 0.95rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .contribute-form {
@@ -1537,7 +1537,7 @@ html {
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -1559,7 +1559,7 @@ html {
 }
 
 .form-input::placeholder {
-  color: var(--muted);
+  color: var(--accent);
   opacity: 0.5;
 }
 
@@ -1581,14 +1581,14 @@ html {
 }
 
 .form-textarea::placeholder {
-  color: var(--muted);
+  color: var(--accent);
   opacity: 0.5;
 }
 
 .form-disclaimer {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
-  color: var(--muted);
+  color: var(--accent);
   margin-top: 1rem;
   line-height: 1.6;
   letter-spacing: 0.05em;
@@ -1645,7 +1645,7 @@ html {
 
 .contributor-org {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -1707,7 +1707,7 @@ html {
   font-size: 0.7rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 /* ── RESEARCH PAGE STYLES ── */
@@ -1735,7 +1735,7 @@ html {
 .research-hero-desc {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   max-width: 65ch;
 }
 
@@ -1796,7 +1796,7 @@ html {
 .team-affiliation {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .research-abstract {
@@ -1846,7 +1846,7 @@ html {
 .finding-num {
   font-family: "DM Mono", monospace;
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1rem;
   letter-spacing: 0.15em;
 }
@@ -1861,7 +1861,7 @@ html {
 .finding-desc {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .research-methodology {
@@ -1893,7 +1893,7 @@ html {
 .methodology-desc {
   font-size: 0.95rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 1.5rem;
 }
 
@@ -1922,7 +1922,7 @@ html {
 
 .methodology-stat-label {
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--accent);
 }
 
 .methodology-list {
@@ -1933,7 +1933,7 @@ html {
 .methodology-list li {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   padding-left: 1.2rem;
   position: relative;
   margin-bottom: 0.5rem;
@@ -1989,13 +1989,13 @@ html {
 
 .publication-authors {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 0.3rem;
 }
 
 .publication-venue {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--accent);
   font-style: italic;
   margin-bottom: 0.8rem;
 }
@@ -2061,7 +2061,7 @@ html {
 .research-contact-desc {
   font-size: 1rem;
   line-height: 1.7;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 2rem;
 }
 
@@ -2098,7 +2098,7 @@ section[id] {
 .test-library-intro {
   font-size: 1rem;
   line-height: 1.8;
-  color: var(--muted);
+  color: var(--accent);
   max-width: 65ch;
   margin: 0 auto 3rem;
 }
@@ -2127,7 +2127,7 @@ section[id] {
 
 .test-stat-label {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--accent);
   line-height: 1.4;
 }
 

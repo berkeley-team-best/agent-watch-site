@@ -1431,7 +1431,7 @@ html {
 .contribute-hero-desc {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: var(--accent);
+  color: var(--muted);
   max-width: 65ch;
 }
 
@@ -1470,7 +1470,7 @@ html {
 .contribution-desc {
   font-size: 0.85rem;
   line-height: 1.6;
-  color: var(--accent);
+  color: var(--muted);
   margin-bottom: 1rem;
 }
 
@@ -1615,6 +1615,10 @@ html {
   transition:
     transform 0.2s,
     border-color 0.2s;
+  
+  h3 {
+    color: var(--accent);
+  }
 }
 
 .contributor-card:hover {
@@ -2092,7 +2096,7 @@ section[id] {
 .test-library-intro {
   font-size: 1rem;
   line-height: 1.8;
-  color: var(--accent);
+  color: var(--muted);
   max-width: 65ch;
   margin: 0 auto 3rem;
 }

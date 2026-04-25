@@ -131,7 +131,7 @@ html {
 .masthead-issue {
   font-family: "DM Mono", monospace;
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--muted);
   text-align: right;
 }
 
@@ -500,7 +500,7 @@ html {
   font-size: 0.68rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--muted);
   white-space: nowrap;
 }
 
@@ -799,7 +799,7 @@ html {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .footer-right {
@@ -808,7 +808,7 @@ html {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: var(--accent);
+  color: var(--muted);
   text-transform: uppercase;
 }
 
@@ -969,7 +969,8 @@ html {
 .methodology-desc {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--accent);
+  color: var(--muted);
+  margin-bottom: 1.5rem;
 }
 
 .dimensions-deep {
@@ -1796,7 +1797,7 @@ html {
 .team-affiliation {
   font-family: "DM Mono", monospace;
   font-size: 0.7rem;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .research-abstract {
@@ -1846,7 +1847,7 @@ html {
 .finding-num {
   font-family: "DM Mono", monospace;
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--muted);
   margin-bottom: 1rem;
   letter-spacing: 0.15em;
 }
@@ -1861,7 +1862,7 @@ html {
 .finding-desc {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .research-methodology {
@@ -1890,13 +1891,6 @@ html {
   color: var(--ink);
 }
 
-.methodology-desc {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: var(--accent);
-  margin-bottom: 1.5rem;
-}
-
 .methodology-stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1922,7 +1916,7 @@ html {
 
 .methodology-stat-label {
   font-size: 0.75rem;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .methodology-list {
@@ -1933,7 +1927,7 @@ html {
 .methodology-list li {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--accent);
+  color: var(--muted);
   padding-left: 1.2rem;
   position: relative;
   margin-bottom: 0.5rem;
@@ -2061,7 +2055,7 @@ html {
 .research-contact-desc {
   font-size: 1rem;
   line-height: 1.7;
-  color: var(--accent);
+  color: var(--muted);
   margin-bottom: 2rem;
 }
 
@@ -2160,4 +2154,8 @@ section[id] {
 
 .accented {
   color: var(--accent);
+}
+
+.muteded {
+  color: var(--muted);
 }

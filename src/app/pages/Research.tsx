@@ -40,7 +40,7 @@ export default function Research() {
             <br />
             Browsing Agents
           </h1>
-          <p className="research-hero-desc">
+          <p className="research-hero-desc muteded">
             A systematic framework to assess privacy and
             security behavior of AI browsing agents through
             tests that replicate use from the perspective of a
@@ -118,7 +118,7 @@ export default function Research() {
               fontSize: "0.75rem",
               letterSpacing: "0.15em",
               textTransform: "uppercase",
-              color: "var(--accent)",
+              color: "var(--muted)",
               margin: 0,
             }}
           >

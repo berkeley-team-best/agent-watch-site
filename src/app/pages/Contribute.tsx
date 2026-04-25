@@ -245,7 +245,7 @@ export default function Contribute() {
 
                 <div>
                   <label style={{ display: 'block', fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                    Email <span style={{ color: 'var(--accent)' }}>*</span>
+                    Email <span >*</span>
                   </label>
                   <input
                     type="email"
@@ -280,7 +280,7 @@ export default function Contribute() {
               <div style={{ display: 'grid', gap: '1.5rem', marginTop: '1.5rem' }}>
                 <div>
                   <label style={{ display: 'block', fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                    Test Prompt <span style={{ color: 'var(--accent)' }}>*</span>
+                    Test Prompt <span >*</span>
                   </label>
                   <textarea
                     required
@@ -298,7 +298,7 @@ export default function Contribute() {
 
                 <div>
                   <label style={{ display: 'block', fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.8rem' }}>
-                    Category <span style={{ color: 'var(--accent)' }}>*</span>
+                    Category <span >*</span>
                   </label>
                   <div className="prompt-categories">
                     {categories.map(cat => (
@@ -316,7 +316,7 @@ export default function Contribute() {
                 {formData.category.includes('New Category') && (
                   <div>
                     <label style={{ display: 'block', fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                      Proposed New Category Name <span style={{ color: 'var(--accent)' }}>*</span>
+                      Proposed New Category Name <span >*</span>
                     </label>
                     <input
                       type="text"
@@ -331,7 +331,7 @@ export default function Contribute() {
 
                 <div>
                   <label style={{ display: 'block', fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                    Expected Safe Behavior <span style={{ color: 'var(--accent)' }}>*</span>
+                    Expected Safe Behavior <span >*</span>
                   </label>
                   <textarea
                     required
@@ -349,7 +349,7 @@ export default function Contribute() {
 
                 <div>
                   <label style={{ display: 'block', fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                    Why This Test Matters <span style={{ color: 'var(--accent)' }}>*</span>
+                    Why This Test Matters <span >*</span>
                   </label>
                   <textarea
                     required
@@ -391,7 +391,7 @@ export default function Contribute() {
 
         <div className="contributor-grid reveal" style={{ gridTemplateColumns: '1fr' }}>
           <div className="contributor-card" style={{ textAlign: 'left' }}>
-            <h3 style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '0.8rem' }}>
+            <h3 style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.8rem' }}>
               Prompt Injection via PDF Metadata
             </h3>
             <p style={{ fontSize: '0.9rem', lineHeight: '1.7', color: 'var(--muted)', marginBottom: '0.8rem' }}>
@@ -406,7 +406,7 @@ export default function Contribute() {
           </div>
 
           <div className="contributor-card" style={{ textAlign: 'left' }}>
-            <h3 style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '0.8rem' }}>
+            <h3 style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.8rem' }}>
               Consent for Calendar Access
             </h3>
             <p style={{ fontSize: '0.9rem', lineHeight: '1.7', color: 'var(--muted)', marginBottom: '0.8rem' }}>
@@ -421,7 +421,7 @@ export default function Contribute() {
           </div>
 
           <div className="contributor-card" style={{ textAlign: 'left' }}>
-            <h3 style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '0.8rem' }}>
+            <h3 style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.8rem' }}>
               Cross-Platform Data Leakage
             </h3>
             <p style={{ fontSize: '0.9rem', lineHeight: '1.7', color: 'var(--muted)', marginBottom: '0.8rem' }}>

@@ -280,7 +280,7 @@ html {
   font-size: 0.65rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .meta-value {
@@ -332,7 +332,7 @@ html {
   font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--muted);
   margin-bottom: 0.5rem;
   opacity: 0;
   animation: fadeUp 0.7s 0.5s forwards;
@@ -609,7 +609,7 @@ html {
 .case-body {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .case-dims {
@@ -626,7 +626,7 @@ html {
   padding: 0.2rem 0.6rem;
   border: 1px solid var(--rule);
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--muted);
   transition: border 0.5s;
 }
 
@@ -663,7 +663,7 @@ html {
 .dim-cell-num {
   font-family: "DM Mono", monospace;
   font-size: 0.65rem;
-  color: var(--accent);
+  color: var(--muted);
   margin-bottom: 1rem;
   letter-spacing: 0.1em;
 }
@@ -678,7 +678,7 @@ html {
 .dim-cell-desc {
   font-size: 0.82rem;
   line-height: 1.6;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 /* ── OPEN WEIGHT SECTION ── */
@@ -702,7 +702,7 @@ html {
 .open-body {
   font-size: 1rem;
   line-height: 1.75;
-  color: var(--accent);
+  color: var(--muted);
   max-width: 55ch;
 }
 
@@ -2158,4 +2158,13 @@ section[id] {
 
 .muteded {
   color: var(--muted);
+}
+
+.berkeley-banner-left {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
 }

@@ -113,14 +113,7 @@ export default function Research() {
           }}
         >
           <p
-            style={{
-              fontFamily: "'Instrument Sans', sans-serif",
-              fontSize: "0.75rem",
-              letterSpacing: "0.15em",
-              textTransform: "uppercase",
-              color: "var(--muted)",
-              margin: 0,
-            }}
+            className="berkeley-banner-left"
           >
             An independent research project from the
           </p>
